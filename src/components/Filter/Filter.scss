@@ -1,0 +1,52 @@
+.filter{
+    h1{
+        font-weight: 300;
+        font-size: 24px;
+        strong{
+            font-weight: 600;
+        }
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        gap: 2;
+        label{
+            font-size: 10px;
+        }
+        input,select{
+            width: 100px;
+            padding: 10px; 
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+    }
+    .top{
+        input{
+            width: 100%;
+        }
+    }
+    .bottom{
+        display: flex;
+        padding: 25px;
+        flex-direction:row ;
+        justify-content: space-between;
+        
+        width: 100%;
+        gap: 20px;
+        button{
+            cursor: pointer;
+            padding: 10px;
+            background: #fece51;
+            border: none;
+            border-radius: 5px;
+            height: 80%;
+            align-self: flex-end;
+            img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    
+}

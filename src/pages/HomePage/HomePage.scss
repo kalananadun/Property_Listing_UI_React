@@ -1,0 +1,40 @@
+@import '../../responsive.scss';
+.HomePage{
+    display: flex;
+    height: 100%;
+    .text-container{
+        flex: 3;
+        height: 100%;
+        .wrapper{
+            padding: 50px;
+            @include md{
+                padding: 0;
+
+            }
+            @include sm{
+                justify-content: flex-start;
+            }
+        }
+    }
+    .image-container{
+        flex: 2;
+        background: #fcf5f3;
+        position: relative;
+        @include md{
+            display: none;
+        }
+        img{
+            width: 105%;
+            position: absolute;
+            right: 0;
+            @include lg{
+
+            }    
+        }  
+    }
+    .boxes{
+        .box{
+            display: none;
+        }
+    }
+}
